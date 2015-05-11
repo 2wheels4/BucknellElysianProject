@@ -1,0 +1,32 @@
+body {
+	font-size: 35px;
+	line-height: 55px;
+    background-color: blue;
+}
+h1 {
+	text-align: center;
+}
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    background-color: orange;
+    height: 100%
+}
+
+#content {
+	margin-left: 15%;
+}
+
+#mission-statement {
+	margin-left: 1000px;
+	top: 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+#house-photo {
+	float: left;
+}
