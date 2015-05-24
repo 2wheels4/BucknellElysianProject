@@ -1,0 +1,74 @@
+body {
+	font-size: 35px;
+	line-height: 55px;
+    background-color: white;
+    text-align: center;
+    overflow-y:scroll;
+}
+
+h1 {
+	position: absolute;
+	position: fixed;
+	width: 100%;
+}
+
+.section {
+	position: absolute;
+	top: 0;
+	width: 15%;
+}
+
+#navigation {
+    position: fixed;
+    left: 0;
+	height: 100%;
+    background-color: orange;
+}
+
+#content {
+	position: fixed;
+	margin-left: 15%;
+	margin-top: 15%;
+	height: 100%;
+	width: 70%;
+}
+
+#events {
+	margin-left: 85%;
+	background-color: orange;
+	min-height: 100%;
+}
+
+#thanks {
+	text-align: center;
+	margin-top: 20%;
+	font-size: 45px;
+}
+
+textarea{
+	font-size: 100%;
+	margin-bottom: 20px;
+}
+button{
+	width: 50%;
+}
+
+#house {
+	margin-top: 20%;
+	width: 100%;
+}
+
+.tab {
+	background-color: #FEF0C9;
+}
+
+.tab-content {
+	line-height: 20px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.link{
+	line-height: 35px;
+	text-align: left;
+}

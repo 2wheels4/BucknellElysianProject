@@ -2,12 +2,75 @@
 <html>
 	<head>
 		<title>BucknellElysianProject | Suggestions</title> 
+		<link rel="stylesheet" href="suggestions.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script type='text/javascript' src='suggestions.js'></script>
 	<head>
+	<body>
 		<h1>We Want to Hear From You!</h1>
-		<p>Do you have an idea for our next program? Did you like the last event? What could we have done better? Let us know!</p>
-		<form action="suggestion.php" method="get">
-			<input type="text" value="Name">
-			<textarea rows="5" cols="60">What's on your mind...</textarea>>
-		</form>
+
+		<div id="navigation" class="section">
+			<h2>Links</h2>
+			<p class = "link"><a href="home.html">Home</a></p>
+			<p class = "link"><a href="suggestions.html">Suggestions</a></p>
+			<p class = "link"><a href="https://www.facebook.com/AffinityHousingProgram">Facebook Page</a></p>
+			<p class = "link"><a href="https://www.google.com/maps/dir/''/Bucknell+University,+23+University+Ave,+Lewisburg,+PA+17837/@40.960807,-76.8844528,17z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89cf13afea908cc1:0x577aa4f2ebbdaa0f!2m2!1d-76.882307!2d40.960807">Find Us!</a></p>
+			<img id = "house" src="http://www.students.bucknell.edu/projects/Lewisburg_Architecture_Project/UniversityAve/008011065/images/p_008-011-065_23university_main.jpg">
+			<p id="address">23 University Ave, Lewisburg PA</p>
+		</div>
+
+		<p id="thanks">Thank you for your response!<p>
+
+		<div id="content" class = "section">
+			<p>Do you have an idea for our next program? Did you like the last event? What could we have done better? Let us know!</p>
+			<form action="" method="get">
+				<textarea rows="1" cols="50" id="name" placeholder="Name"></textarea>
+				<textarea rows="7" cols="50" id="body" placeholder="What's on your mind..."></textarea>
+			</form>
+			<button id="send">Send</button>
+		</div>
+
+		<div id="events" class="section">
+			
+			<h2>Events</h2>
+			<div class= "tab">
+				<span id="pastTab">&nbsp&nbsp&nbspPast&nbsp&nbsp&nbsp</span>
+				<span id="upcoTab">&nbspUpcoming&nbsp</span>
+			</div>
+	 
+		    <div class="tab-content">
+		        <div id="past">
+		            <h3>Connect-Four Tournament</h3>
+		            <p>Using a double-elimination bracket-style tournament, participants went head-head competing in rivetting games of connect-four. The winner Jonathan Walls went undefeated.</p>
+		            <h5>Date: <i>Apr 22, 2015</i></h4>
+		            <h3>Puzzle Night</h3>
+		            <p>Participants came and constructed their own jig-saw puzzles ranging from about 60-100 pieces which they got to take home!</p>
+		            <h5>Date: <i>Feb 18, 2015</i></h4>
+		            <h3>Famile Feud</h3>
+		            <p>The house was divided into two families to compete in a classic  family feud game and the winners took home gift cards.</p>
+		            <h5>Date: <i>Jan 21, 2015</i></h4>
+		            <h3>Maze Race</h3>
+		            <p>Teams of two battled against each other doing mazes, word searches, and other puzzles. The competition came down to a thrilling tie-breaker involving solving a rubix cube and a paper-airplaine contest won by Jordan Powers and Seline Tan-Torres</p>
+		            <h5>Date: <i>Oct 29, 2014</i></h4>
+		            <h3>Riddle Night</h3>
+		            <p>Teams of four competed against each other in a game-show style atmosphere solving the most difficult riddles around, and a few easy ones.</p>
+		            <h5>Date: <i>Sep 17, 2014</i></h4>
+		        </div>
+		 
+		        <div id="upcoming">
+		            <h3>Bi-Weekly Game Night</h3>
+		            <p>Every other week the Bucknell Elysian Project will be hosting a game night on Wednesdays. Free food is always included and if you have a suggestion for the game <a href="suggestions.html">let us know</a>. The next game is TBA</p>
+		            <h5>Date: <i>Sep 9, 2015</i></h4>
+		            <h3>Affinity Block Party</h3>
+		            <p>All of the affinity houses around bucknell will be show-casing their affinity on St. George Street. The event has tons of food and lots of cool games! Everyone is welcome to come.</p>
+		            <h5>Date: <i>To be announced</i></h4>
+		            <h3>Maze Runner</h3>
+		            <p>The Bucknell Elysian Project will be taking a trip to a maze field where students will race to find their way out. Clues along the way will help students get through the maze while they work on developing their spacial memory.</p>
+		            <h5>Date: <i>To be announced</i></h4>
+		        </div>
+			</div>
+
+		</div>
+
 	</body>
 </html>
